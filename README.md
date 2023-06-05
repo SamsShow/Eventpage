@@ -1,2 +1,2 @@
-# eventpage
+# Event page
 Elixir Event Page
