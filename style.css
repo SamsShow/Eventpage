@@ -60,13 +60,14 @@ body::-webkit-scrollbar {
 .Backtext{
   color: #cecece;
   /* position: absolute; */
-  left: 50%;
+  left: 75%;
   transform: translateX(-50%);
   top: 50%;
   font-size: 85px;
   font-weight: bolder;
   transition: transform 0.3s;
   position: fixed;
+  width: 100%;
 }
 
 .navbar-toggler {
@@ -254,4 +255,91 @@ code {
     font-size: 20rem;
     filter: opacity(0.5);
   }/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width:767px) {
+  .Backtext{
+    color: #cecece;
+    /* position: absolute; */
+    left: 70%;
+    transform: translateX(-50%);
+    top: 50%;
+    font-size: 60px;
+    font-weight: bolder;
+    transition: transform 0.3s;
+    position: fixed;
+    width: 100%;
+  } 
+}
+
+@media  screen and (max-width:479px) {
+  .Backtext{
+    color: #cecece;
+    /* position: absolute; */
+    left: 68%;
+    transform: translateX(-50%);
+    top: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+    transition: transform 0.3s;
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar-center {
+    color: #cecece;
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bolder;
+    transition: transform 0.3s;
+    position: fixed;
+  }
+  .navbar-brand {
+    color: #cecece;
+    margin-left: 25px;
+    margin-top: 57px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: fixed;
+    z-index: 50;
+    transition: 0.3s;
+  }
+
+  .navbar-toggler {
+    /* display: flex; */
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    margin-top: 44px;
+    left: 90%;
+    cursor: pointer;
+    position: fixed;
+    z-index: 50;
+    color: #cecece;
+    transition: 0.2s;
+  }
+
+  .nft {
+    flex: 0 0 auto;
+      background-color: rgb(22, 20, 24);
+      color: #eee;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+              user-select: none;
+      max-width: 250px;
+      margin: 5rem auto;
+      border: 1px solid rgba(255, 255, 255, 0.1333333333);
+      background-color: #282c34;
+      background: linear-gradient(0deg, rgb(40, 44, 52) 0%, rgba(17, 0, 32, 0.5) 100%);
+      box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.5333333333);
+      border-radius: 0.7rem;
+      -webkit-backdrop-filter: blur(7px);
+      backdrop-filter: blur(7px);
+      overflow: hidden;
+      transition: 0.5s all;
+  }
+
+}
   
